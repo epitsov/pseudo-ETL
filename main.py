@@ -1,18 +1,4 @@
 from ETL.etl import ETL
 
 e = ETL()
-
-
-
-e.source('db').sink('db').run()
-
-
-
-
-
-
-
-
-
-
-
+# e.source('file',add_all=True).sink('db').run()
