@@ -1,5 +1,8 @@
 # pseudo-ETL
 
+## Before you start edit cfg.json
+
+
 How to use:
 
 etl.source('file', add_all=True).sink('console').run() -> prints all the data from the file
